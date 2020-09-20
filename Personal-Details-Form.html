@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>User's personal details</title>
+</head>
+
+<body>
+  <H3>Hello users<br />
+    Please leave your details here to be contacted</H3>
+  <br />
+  <table>
+    <form action="mailto:ajaysundar25@outlook.com" method="post">
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type='text'></td>
+      </tr>
+      <tr>
+        <td><label for="DOB">Date of birth:</label></td>
+        <td><input type="date"></td>
+      </tr>
+      <tr>
+        <td><label for='Gender'>Gender</label></td>
+        <td><input type="radio" value="Male" name="Gender">Male<br>
+          <input type="radio" value="Female" name="Gender">Female<br>
+          <input type="radio" value="Others" name="Gender">Others
+        </td>
+      </tr>
+      <tr>
+        <td>Resume</td>
+        <td><input type="file"></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email</label></td>
+        <td><input type="email"></td>
+      </tr>
+      <tr>
+        <td><label for='Contact number'>Contact number</label></td>
+        <td><input type="tel"> </td>
+      </tr>
+      <tr>
+        <td><label for='Contact Type'>Contact Type</label></td>
+        <td><input type="checkbox" value="Phone" name="Contact Type"><label for="Phone Number">Phone Number</label><br>
+          <input type="checkbox" value="Email" name="Contact Type"><label for="Email">Email</label><br>
+          <input type="checkbox" value="WhatsApp" name="Contact Type"><label for="WhatsApp">WhatsApp</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="Address">Residential Address</label></td>
+        <td><textarea name="Address" rows="10" cols="30"></textarea></td>
+      </tr>
+  </table>
+  <input type="submit" name="submit" value="submit"><input type="reset" name="reset" value="reset">
+  </form>
+  </table>
+</body>
+
+</html>
